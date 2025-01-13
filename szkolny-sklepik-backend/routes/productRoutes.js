@@ -26,8 +26,6 @@ router.post('/', async (req, res) => {
 });
 
 // Usuń produkt po ID
-
-
 router.delete('/:id', async (req, res) => {
     if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
         return res.status(400).json({ error: 'Nieprawidłowe ID' });
