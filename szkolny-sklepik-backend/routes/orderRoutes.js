@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Order = require('../models/Order'); // Upewnij się, że ścieżka jest poprawna
+const Order = require('../models/Order');
 const mongoose = require('mongoose');
 
 // Zamówienia
@@ -11,7 +11,6 @@ router.post('/', async (req, res) => {
     }
 
     try {
-        // Zapisz zamówienie do bazy (zakładając, że masz model Order)
         const newOrder = new Order({
             products,
             date: new Date(),
