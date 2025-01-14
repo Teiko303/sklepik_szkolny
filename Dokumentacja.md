@@ -108,3 +108,12 @@ Struktura projektu:
         └── package.json
 
 Autor: Filip Bugaj
+
+Zapraszam również od zapoznania się z materiałami poglądowymi w repozytorium, przedstawiającymi działanie aplikajcji. Są tam ukazane takie funkcjionalności jak:
+
+- dodawanie i usuwanie produktu
+- logowanie
+- logowanie jako admin
+- rejestracja nowego urzytkownika
+- działanie koszyka
+- responsywnosc
